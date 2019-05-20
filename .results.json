@@ -1,0 +1,267 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 14,
+    "passes": 9,
+    "pending": 0,
+    "failures": 5,
+    "start": "2019-05-20T17:07:36.750Z",
+    "end": "2019-05-20T17:07:36.822Z",
+    "duration": 72
+  },
+  "tests": [
+    {
+      "title": "renders at least one <MovieCard /> component",
+      "fullTitle": "<MovieShowcase /> renders at least one <MovieCard /> component",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:21:31)"
+      }
+    },
+    {
+      "title": "renders 9 <MovieCard /> components",
+      "fullTitle": "<MovieShowcase /> renders 9 <MovieCard /> components",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected {} to have a length of 9 but got 0",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "9",
+        "stack": "AssertionError: expected {} to have a length of 9 but got 0\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:25:27)"
+      }
+    },
+    {
+      "title": "passes all 4 props to every component",
+      "fullTitle": "<MovieShowcase /> passes all 4 props to every component",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:29:31)"
+      }
+    },
+    {
+      "title": "has generated the correct prop values for the first movie",
+      "fullTitle": "<MovieShowcase /> has generated the correct prop values for the first movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is meant to be run on 1 node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1958:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:1225:21)\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:39:24)",
+        "message": "Method “props” is meant to be run on 1 node. 0 found instead."
+      }
+    },
+    {
+      "title": "has generated the correct prop values for the last movie",
+      "fullTitle": "<MovieShowcase /> has generated the correct prop values for the last movie",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'The Trash Man'",
+        "showDiff": true,
+        "expected": "The Trash Man",
+        "stack": "AssertionError: expected undefined to equal 'The Trash Man'\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:46:43)"
+      }
+    },
+    {
+      "title": "assigns a default prop of 'Unknown' for the title prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of 'Unknown' for the title prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "assigns a default prop of null for the IMDBRating prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of null for the IMDBRating prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "assigns a default prop of ['No Genre(s) Found'] for the genres prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of ['No Genre(s) Found'] for the genres prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "assigns a default prop of 'default' for the poster prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of 'default' for the poster prop",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses the poster prop as a background image, rendering only the necessary HTML",
+      "fullTitle": "<CardFront /> uses the poster prop as a background image, rendering only the necessary HTML",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly renders the title prop",
+      "fullTitle": "<CardBack /> correctly renders the title prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly renders the genres prop as comma seperated strings",
+      "fullTitle": "<CardBack /> correctly renders the genres prop as comma seperated strings",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
+      "fullTitle": "<CardBack /> renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an <img> tag if the IMDBRating prop is valid",
+      "fullTitle": "<CardBack /> renders an <img> tag if the IMDBRating prop is valid",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "renders at least one <MovieCard /> component",
+      "fullTitle": "<MovieShowcase /> renders at least one <MovieCard /> component",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:21:31)"
+      }
+    },
+    {
+      "title": "renders 9 <MovieCard /> components",
+      "fullTitle": "<MovieShowcase /> renders 9 <MovieCard /> components",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected {} to have a length of 9 but got 0",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "9",
+        "stack": "AssertionError: expected {} to have a length of 9 but got 0\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:25:27)"
+      }
+    },
+    {
+      "title": "passes all 4 props to every component",
+      "fullTitle": "<MovieShowcase /> passes all 4 props to every component",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:29:31)"
+      }
+    },
+    {
+      "title": "has generated the correct prop values for the first movie",
+      "fullTitle": "<MovieShowcase /> has generated the correct prop values for the first movie",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Method “props” is meant to be run on 1 node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1958:17)\n    at ShallowWrapper.props (node_modules/enzyme/build/ShallowWrapper.js:1225:21)\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:39:24)",
+        "message": "Method “props” is meant to be run on 1 node. 0 found instead."
+      }
+    },
+    {
+      "title": "has generated the correct prop values for the last movie",
+      "fullTitle": "<MovieShowcase /> has generated the correct prop values for the last movie",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'The Trash Man'",
+        "showDiff": true,
+        "expected": "The Trash Man",
+        "stack": "AssertionError: expected undefined to equal 'The Trash Man'\n    at Context.<anonymous> (test/0-MovieShowcase.test.js:46:43)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "assigns a default prop of 'Unknown' for the title prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of 'Unknown' for the title prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "assigns a default prop of null for the IMDBRating prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of null for the IMDBRating prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "assigns a default prop of ['No Genre(s) Found'] for the genres prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of ['No Genre(s) Found'] for the genres prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "assigns a default prop of 'default' for the poster prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of 'default' for the poster prop",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses the poster prop as a background image, rendering only the necessary HTML",
+      "fullTitle": "<CardFront /> uses the poster prop as a background image, rendering only the necessary HTML",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly renders the title prop",
+      "fullTitle": "<CardBack /> correctly renders the title prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly renders the genres prop as comma seperated strings",
+      "fullTitle": "<CardBack /> correctly renders the genres prop as comma seperated strings",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
+      "fullTitle": "<CardBack /> renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an <img> tag if the IMDBRating prop is valid",
+      "fullTitle": "<CardBack /> renders an <img> tag if the IMDBRating prop is valid",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
